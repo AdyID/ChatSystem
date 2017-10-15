@@ -173,16 +173,16 @@ public class ServerTCP {
                                 break;
                             case "SERVER":
                                 name = received.substring(7);
-                                System.out.println(name +"rejoined!");
+                                System.out.println(name +" rejoined!");
                                 ServerTCP.sendMessage(name+" has rejoined the chat!");
                                 break;
                             case "VISIBLE":
-                                name = received.substring(9);
+                                name = received.substring(8);
                                 System.out.println(name);
                                 String listt = "Online users :";
                                 for(String c: ServerTCP.invClient){
                                     if(name.equals(c)){
-                                        ServerTCP.clients.add(this);
+                                        ServerTCP.visClient.add(name);
                                     }
                                 }
                                 for(String c: ServerTCP.visClient) {

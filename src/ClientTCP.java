@@ -156,13 +156,6 @@ public class ClientTCP {
                         }
                     }
 
-                //if(!message.equalsIgnoreCase("quit")&& message.equalsIgnoreCase("Invisible")) {
-                   // message2 = usIn.nextLine();
-                    //if(message2.equalsIgnoreCase("Visible")){
-                        //userInput
-                    //}
-                //}
-
             }while(!message.equalsIgnoreCase("quit"));
 
         }catch (IOException e){
