@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="34060798-72ed-4dc5-a3e4-5a7aedf356c2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TcpChat/ClientHandler.class" afterPath="$PROJECT_DIR$/out/production/TcpChat/ClientHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TcpChat/ClientTCP.class" afterPath="$PROJECT_DIR$/out/production/TcpChat/ClientTCP.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TcpChat/MessageListener.class" afterPath="$PROJECT_DIR$/out/production/TcpChat/MessageListener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ClientTCP.java" afterPath="$PROJECT_DIR$/src/ClientTCP.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ServerTCP.java" afterPath="$PROJECT_DIR$/src/ServerTCP.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,21 +17,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ClientTCP.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ClientTCP.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ClientTCP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="156" column="21" lean-forward="false" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
+            <state relative-caret-position="366">
+              <caret line="167" column="31" lean-forward="true" selection-start-line="167" selection-start-column="31" selection-end-line="167" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerTCP.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ServerTCP.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ServerTCP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="175" column="59" lean-forward="false" selection-start-line="175" selection-start-column="59" selection-end-line="175" selection-end-column="59" />
+            <state relative-caret-position="441">
+              <caret line="248" column="82" lean-forward="false" selection-start-line="248" selection-start-column="82" selection-end-line="248" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -158,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClientTCP">
+  <component name="RunManager" selected="Application.ServerTCP">
     <configuration default="false" name="ServerTCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ServerTCP" />
@@ -591,8 +588,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.ClientTCP" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ServerTCP" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ServerTCP" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ClientTCP" />
       </list>
     </recent_temporary>
   </component>
@@ -606,16 +603,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508085485592</updated>
-      <workItem from="1508085489750" duration="1214000" />
+      <workItem from="1508085489750" duration="2089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1214000" />
+    <option name="totallyTimeSpent" value="2089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -627,7 +623,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32655367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -663,18 +659,18 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ClientTCP.java">
+    <entry file="file://$PROJECT_DIR$/src/ServerTCP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="156" column="21" lean-forward="false" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
+        <state relative-caret-position="441">
+          <caret line="248" column="82" lean-forward="false" selection-start-line="248" selection-start-column="82" selection-end-line="248" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServerTCP.java">
+    <entry file="file://$PROJECT_DIR$/src/ClientTCP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="175" column="59" lean-forward="false" selection-start-line="175" selection-start-column="59" selection-end-line="175" selection-end-column="59" />
+        <state relative-caret-position="366">
+          <caret line="167" column="31" lean-forward="true" selection-start-line="167" selection-start-column="31" selection-end-line="167" selection-end-column="31" />
           <folding />
         </state>
       </provider>

@@ -238,12 +238,15 @@ public class ServerTCP {
                         if(c.getUsername().equalsIgnoreCase(username))
                             i = ServerTCP.clients.indexOf(c);
                     }
+                    ServerTCP.visClient.remove(username);
                     ServerTCP.clients.remove(i);
+
                     for (ClientHandler c : ServerTCP.clients) {
                         c.getPrintWriter().println(ServerTCP.getActiveClients());
                     }
 
                     System.out.println(username+" left the conversation");
+                    ServerTCP.sendMessage(username+" has left the conversation!");
 
                     client.close();
                 }
