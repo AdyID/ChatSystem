@@ -5,17 +5,15 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.Scanner;
 
-/**
- * Created by Seb on 09/25/2016.
- */
-public class ClientTCP {
+
+public class Client {
     static Socket socket;
     static Scanner networkInput;
     static PrintWriter networkOutput;
     
     //the server, the port and the username
     static String server, username;
-    static  int port = 7777;
+    static  int port = 5000;
     static InetAddress ip;
     
     public static Scanner getNetworkInput(){
@@ -177,8 +175,8 @@ class MessageListener extends Thread{
 
     public void run(){
         while(true) {
-            if (ClientTCP.getNetworkInput().hasNext()) {
-                System.out.println(ClientTCP.getNetworkInput().nextLine());
+            if (Client.getNetworkInput().hasNext()) {
+                System.out.println(Client.getNetworkInput().nextLine());
 
             }
         }

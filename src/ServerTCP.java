@@ -6,22 +6,19 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.*;
 
-/**
- * Created by Seb on 09/25/2016.
- */
+
 public class ServerTCP {
 
     static ServerSocket serverSocket;
     static Socket client;
-    static final int PORT = 7777;
+    static final int PORT = 5000;
 
-    //static Scanner input;
-    //static PrintWriter output;
+
     static ArrayList<ClientHandler> clients = new ArrayList<>();
     static Set<String> invClient = new TreeSet<String>();
     static Set<String> visClient = new TreeSet<String>();
     public static void main(String[] args) throws IOException {
-        //starts the server at the given port
+
         try {
             //initialize the serversocket
             serverSocket = new ServerSocket(PORT);
@@ -270,15 +267,8 @@ public class ServerTCP {
         public void stopRunning(){
             running = false;
         }
-        //getter
         public String getUsername(){
             return username;
-        }
-        public Socket getSocket(){
-            return client;
-        }
-        public Scanner getScanner(){
-            return input;
         }
         public PrintWriter getPrintWriter(){
             return output;
